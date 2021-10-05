@@ -9,22 +9,22 @@ func Int(num int) *int {
 	return &num
 }
 
-// Float64 함수는 전달된 float64 값을 가지는 int 포인터를 반환합니다
+// Float64 함수는 전달된 float64 값을 가지는 float64 포인터를 반환합니다
 func Float64(num float64) *float64 {
 	return &num
 }
 
-// Float32 함수는 전달된 float32 값을 가지는 int 포인터를 반환합니다
+// Float32 함수는 전달된 float32 값을 가지는 float32 포인터를 반환합니다
 func Float32(num float32) *float32 {
 	return &num
 }
 
-// String 함수는 전달된 string 값을 가지는 int 포인터를 반환합니다
+// String 함수는 전달된 string 값을 가지는 string 포인터를 반환합니다
 func String(str string) *string {
 	return &str
 }
 
-// Bool 함수는 전달된 bool 값을 가지는 int 포인터를 반환합니다
+// Bool 함수는 전달된 bool 값을 가지는 bool 포인터를 반환합니다
 func Bool(b bool) *bool {
 	return &b
 }
